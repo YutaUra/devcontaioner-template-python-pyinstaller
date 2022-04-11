@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "devcontaioner-template-python-pyinstaller"
+version = "0.1.0"
+description = ""
+authors = ["YutaUra <yuuta3594@outlook.jp>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pyinstaller = "^4.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
